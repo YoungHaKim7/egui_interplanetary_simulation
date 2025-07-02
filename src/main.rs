@@ -161,7 +161,7 @@ impl App for InterplanetarySimulation {
                     let mut rng = rand::rng();
                     let pos =
                         Vector2::new(rng.random_range(0.0..800.0), rng.random_range(0.0..600.0));
-                    let mass = rng.random_range(10.0..200.0);
+                    let mass = rng.random_range(1500.0..2200.0);
                     let color = Color32::from_rgb(
                         rng.random_range(0..255),
                         rng.random_range(0..255),
